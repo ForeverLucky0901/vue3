@@ -1,0 +1,31 @@
+//	默认活动 750px 转 rem
+html {
+    font-size: 13.3333vw !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Helvetica !important;
+    box-sizing: border-box;
+    border: 0;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #EFE7C2;
+}
+
+#app {
+    width: 100%;
+    min-height: 100%;
+}
